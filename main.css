@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    padding: 32px 60px;
+    background-color: #FCEBE9;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    -webkit-box-shadow: 0px 4px 22px -8px rgba(237,110,115,0.59);
+    -moz-box-shadow: 0px 4px 22px -8px rgba(237,110,115,0.59);
+    box-shadow: 0px 4px 22px -8px rgba(237,110,115,0.59);
+    
+}
+
+.logo h1 {
+    font-family: 'Nickainley', sans-serif;
+    font-weight: normal;
+    font-size: 56px;
+    color: #543A76;
+    margin-right: 90px;
+}
+
+.navbar li {
+    display: inline;
+    font-size: 24px;
+    font-family: 'Comfortaa', sans-serif;
+    margin-left: 48px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #F1A2A6;
+    font-weight: normal;
+}
+
+.navbar li a:hover {
+    font-weight: bolder;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+
+.social-icons li {
+    display: inline;
+    margin-left: 24px;
+}
+
+header .header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+body {
+    background-color: #FCEBE9;
+}
+
+.imagem {
+    margin-top: 53px;
+}
+
+#sobre {
+    margin-top: 128px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+h2 {
+    color: #ED6E73;
+    font-family: 'Nickainley', sans-serif;
+    font-weight: normal;
+    font-size: 80px;
+}
+
+.aboutme {
+    display: block;
+    margin-left: 124px;
+}
+
+p {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 24px;
+    color: #543A76;
+}
+
+#curiosidade {
+    font-weight: bold;
+    color: #ED6E73;
+}
+
+#portfolio {
+    background-color: #ED6E73;
+}
+
+#portfolio h2 {
+    padding-top: 72px;
+    color: #fff;
+    font-family: 'Nickainley', sans-serif;
+    font-weight: normal;
+    font-size: 80px;
+    text-align: center;
+}
+
+#portfolio img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 32px;
+    padding-bottom: 88px;
+}
+
+
+#contato {    
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imagem-contato {
+    padding-top: 72px;
+}
+
+.contact-form {
+    padding-left: 120px;
+    padding-top: 72px;
+    color: #ED6E73;
+    display: flex;
+    justify-content: space-between;
+}
+
+input::placeholder,
+textarea::placeholder  {
+    font-family: 'Comfortaa', sans-serif;
+    background-color: transparent;
+    font-size: 24px;
+    padding: 16px 20px 16px 20px;
+    color: #ED6E73;
+}
+
+input:focus, textarea:focus {
+    font-family: 'Comfortaa', sans-serif;
+    outline-color: #543A76;
+    text-emphasis-color: #543A76;
+    font-size: 24px;
+} 
+
+form input, form textarea {
+    display: block;
+    border: solid;
+    margin-top: 20px;
+    width: 543px;
+    height: 60px;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: #ED6E73;
+    background-color: transparent;
+}
+
+form textarea {
+    height: 280px;
+    resize: none;
+    overflow: hidden;
+}
+
+button {
+    background-color: #ED6E73;
+    border-radius: 20px;
+    padding: 20px 138px;
+    color:#FCEBE9;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 32px;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin-top: 20px;
+    width: 543px;
+}
+
+button:hover {
+    background-color: #F1A2A6;
+}
+
+footer {
+    margin-top: 40px;
+    background-color: #543A76;
+    color: #FCEBE9;
+    padding: 16px 24px;
+    align-items: center;
+}
+
+footer h3 {
+    font-family: 'Comfortaa', sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+}
